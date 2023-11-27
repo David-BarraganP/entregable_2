@@ -45,6 +45,8 @@ const WheatherDetail = ({ weather }) => {
       });
   };
 
+  
+
   return (
     <article className="text-center grid  gap-4  overflow-hidden sm:grid sm:grid-cols-2 max-w-[400px] ">
       <form
