@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 
+
 const WheatherDetail = ({ weather }) => {
   console.log(weather);
 
