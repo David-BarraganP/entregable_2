@@ -52,7 +52,7 @@ const WheatherDetail = ({ weather }) => {
 
     "01n": "bg-[url(/images/atnigth/alley-89197_1280.jpg)]",
 
-    "02d": "bg-[url(/images/onday/fewclouds.jpg)]",
+    "02d": "bg-[url(/images/onday/mist.jpg)]",
 
     "02n": "bg-[url(/images/atnigth/fewcloudsnigth.jpg)]",
 

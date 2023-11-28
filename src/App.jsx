@@ -28,35 +28,35 @@ function App() {
   }, []);
 
   const bgImages = {
-    "01d": "bg-[url(/images/Untitledimage.jpg)]",
+    "01d": "bg-[url(/images/Untitledimage.png)]",
 
     "01n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "02d": "bg-[url(/images/Untitledimage.jpg)]",
+    "02d": "bg-[url(/images/Untitledimage.png)]",
 
     "02n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "03d": "bg-[url(/images/Untitledimage.jpg)]",
+    "03d": "bg-[url(/images/Untitledimage.png)]",
 
     "03n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "04d": "bg-[url(/images/Untitledimage.jpg)]",
+    "04d": "bg-[url(/images/Untitledimage.png)]",
 
     "04n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "09d": "bg-[url(/images/Untitledimage.jpg)]",
+    "09d": "bg-[url(/images/Untitledimage.png)]",
 
     "09n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "10d": "bg-[url(/images/Untitledimage.jpg)]",
+    "10d": "bg-[url(/images/Untitledimage.png)]",
 
     "10n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "11d": "bg-[url(/images/Untitledimage.jpg)]",
+    "11d": "bg-[url(/images/Untitledimage.png)]",
 
     "11n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "12d": "bg-[url(/images/Untitledimage.jpg)]",
+    "12d": "bg-[url(/images/Untitledimage.png)]",
 
     "12n": "bg-[url(/images/clearskynigth.jpg)]",
   };
