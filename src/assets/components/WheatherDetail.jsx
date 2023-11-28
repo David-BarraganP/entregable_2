@@ -47,8 +47,55 @@ const WheatherDetail = ({ weather }) => {
   };
 
   
+  const bgImages = {
+    "01d": "bg-[url(/images/onday/clearsky.jpg)]",
+
+    "01n": "bg-[url(/images/atnigth/alley-89197_1280.jpg)]",
+
+    "02d": "bg-[url(/images/onday/fewclouds.jpg)]",
+
+    "02n": "bg-[url(/images/atnigth/fewcloudsnigth.jpg)]",
+
+    "03d": "bg-[url(/images/onday/scatteredclouds.jpg)]",
+
+    "03n": "bg-[url(/images/atnigth/scatteredcloudsnigth.jpg)]",
+
+    "04d": "bg-[url(/images/onday/brokenclouds.jpg)]",
+
+    "04n": "bg-[url(/images/atnigth/brokencloudsnigth.jpg)]",
+
+    "09d": "bg-[url(/images/onday/Downpour.jpg)]",
+
+    "09n": "bg-[url(/images/atnigth/Downpournigth.jpg)]",
+
+    "50d": "bg-[url(/images/onday/mist.jpg)]",
+
+    "50n": "bg-[url(/images/atnigth/mistnigth.jpg)]",
+
+    "10d": "bg-[url(/images/onday/rain.jpg)]",
+
+    "10n": "bg-[url(/images/atnigth/rainnigth.jpg)]",
+
+    "11d": "bg-[url(/images/onday/thunderstorm.jpg)]",
+
+    "11n": "bg-[url(/images/atnigth/thunderstormnigth.jpg)]",
+
+    "12d": "bg-[url(/images/onday/snow.jpg)]",
+
+    "12n": "bg-[url(/images/atnigth/snownigth.jpg)]",
+  };
+
+
+  
 
   return (
+
+    <main   className={`flex justify-center items-center h-screen  bg-black  bg-cover  p-[160px]
+    border-4 rounded-md shadow-xl  dark:bg-black dark:border-black dark:shadow-black 
+    ${bgImages[citys.icon]} `}>
+
+
+
     <article className="text-center grid  gap-4  overflow-hidden sm:grid sm:grid-cols-2 max-w-[400px] ">
       <form
         className=" bg-white/30 p-1 rounded-xl  text-black  text-center"
@@ -137,6 +184,7 @@ const WheatherDetail = ({ weather }) => {
         </button>
       </div>
     </article>
+    </main>
   );
 };
 

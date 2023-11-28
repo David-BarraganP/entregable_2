@@ -28,37 +28,37 @@ function App() {
   }, []);
 
   const bgImages = {
-    "01d": "bg-[url(/images/onday/clearsky.jpg)]",
+    "01d": "bg-[url(/images/Untitledimage.jpg)]",
 
-    "01n": "bg-[url(/images/atnigth/clearskynigth.jpg)]",
+    "01n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "02d": "bg-[url(/images/onday/fewclouds.jpg)]",
+    "02d": "bg-[url(/images/Untitledimage.jpg)]",
 
-    "02n": "bg-[url(/images/atnigth/fewcloudsnigth.jpg)]",
+    "02n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "03d": "bg-[url(/images/onday/scatteredclouds.jpg)]",
+    "03d": "bg-[url(/images/Untitledimage.jpg)]",
 
-    "03n": "bg-[url(/images/atnigth/scatteredcloudsnigth.jpg)]",
+    "03n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "04d": "bg-[url(/images/onday/brokenclouds.jpg)]",
+    "04d": "bg-[url(/images/Untitledimage.jpg)]",
 
-    "04n": "bg-[url(/images/atnigth/brokencloudsnigth.jpg)]",
+    "04n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "09d": "bg-[url(/images/onday/Downpour.jpg)]",
+    "09d": "bg-[url(/images/Untitledimage.jpg)]",
 
-    "09n": "bg-[url(/images/atnigth/Downpournigth.jpg)]",
+    "09n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "10d": "bg-[url(/images/onday/rain.jpg)]",
+    "10d": "bg-[url(/images/Untitledimage.jpg)]",
 
-    "10n": "bg-[url(/images/atnigth/rainnigth.jpg)]",
+    "10n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "11d": "bg-[url(/images/onday/thunderstorm.jpg)]",
+    "11d": "bg-[url(/images/Untitledimage.jpg)]",
 
-    "11n": "bg-[url(/images/atnigth/thunderstormnigth.jpg)]",
+    "11n": "bg-[url(/images/clearskynigth.jpg)]",
 
-    "12d": "bg-[url(/images/onday/snow.jpg)]",
+    "12d": "bg-[url(/images/Untitledimage.jpg)]",
 
-    "12n": "bg-[url(/images/atnigth/snownigth.jpg)]",
+    "12n": "bg-[url(/images/clearskynigth.jpg)]",
   };
 
   // : <span>Cargando...</span> }
@@ -66,7 +66,7 @@ function App() {
   // bg-[url(/)]para imagenes
   return (
     <main
-      className={`flex justify-center items-center h-screen  bg-black text-white bg-cover
+      className={`flex justify-center items-center h-screen  bg-black text-white bg-cover rounded-xl
     ${bgImages[weather?.weather[0].icon]} `}
     >
       {weather ? (
