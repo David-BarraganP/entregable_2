@@ -66,7 +66,7 @@ function App() {
   // bg-[url(/)]para imagenes
   return (
     <main
-      className={`flex justify-center items-center h-screen  bg-black text-white bg-cover rounded-xl
+      className={`flex justify-center items-center h-screen  bg-black text-white bg-cover rounded-xl 
     ${bgImages[weather?.weather[0].icon]} `}
     >
       {weather ? (

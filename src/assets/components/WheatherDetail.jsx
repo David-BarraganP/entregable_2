@@ -90,7 +90,7 @@ const WheatherDetail = ({ weather }) => {
 
   return (
 
-    <main   className={`flex justify-center items-center h-screen  bg-black  bg-cover  p-[160px]
+    <main   className={`flex justify-center items-center h-[100hv]  bg-black  bg-cover  p-10
     border-4 rounded-md shadow-xl  dark:bg-black dark:border-black dark:shadow-black 
     ${bgImages[citys.icon]} `}>
 
